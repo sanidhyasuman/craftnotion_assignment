@@ -1,0 +1,89 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1eeee;
+    padding: 12px 20px;
+    color: rgb(32, 32, 32);
+}
+
+
+.left_Container {
+    display: flex;
+    gap: 15px;
+}
+
+.burgericon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.dropdown {
+    background: none;
+    border: none;
+    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+}
+
+.dropdown:hover {
+    color: #5c5b57;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.searchIcon {
+    color: #333;
+    margin-right: 5px;
+}
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.createBtn {
+    background-color: #0073ee;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.createBtn:hover {
+    background-color: #0357b1;
+}
+
+
+.actions .icon {
+    font-size: 1.2rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.actions .icon:hover {
+    color: #5e5e5d;
+}
