@@ -24,3 +24,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  height: calc(100vh - 66px);
+}
+
+
+
+.content {
+  flex: 1;
+  text-align: center;
+}
