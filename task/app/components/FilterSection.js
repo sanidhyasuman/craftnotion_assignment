@@ -40,15 +40,62 @@ const FilterSection = () => {
 
       <div className={styles.typeFilters}>
         <h4>Type</h4>
-        {filterTypes.map((filter, index) => (
-          <div key={index} className={styles.filterItem}>
-            <input type="checkbox" />
-            <span className={styles.icon} style={{ color: filter.color }}>
-              {filter.icon}
-            </span>
-            {filter.name}
-          </div>
-        ))}
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="chart" value="Chart" />
+          <span className={styles.icon} style={{ color: "#FF5733" }}>
+            <MdOutlineInsertChart />
+          </span>
+          Chart
+        </div>
+
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="cohort" value="Cohort" />
+          <span className={styles.icon} style={{ color: "#33A1FF" }}>
+            <HiOutlineUsers />
+          </span>
+          Cohort
+        </div>
+
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="dashboard" value="Dashboard" />
+          <span className={styles.icon} style={{ color: "#28A745" }}>
+            <MdOutlineDashboard />
+          </span>
+          Dashboard
+        </div>
+
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="experiment" value="Experiment" />
+          <span className={styles.icon} style={{ color: "#FFC107" }}>
+            <AiOutlineExperiment />
+          </span>
+          Experiment
+        </div>
+
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="flag" value="Flag" />
+          <span className={styles.icon} style={{ color: "#DC3545" }}>
+            <FaRegFlag />
+          </span>
+          Flag
+        </div>
+
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="notebook" value="Notebook" />
+          <span className={styles.icon} style={{ color: "#6F42C1" }}>
+            <IoDocumentTextOutline />
+          </span>
+          Notebook
+        </div>
+
+      </div>
+
+      <div className={styles.typeFilters}>
+        <h4>content is....</h4>
+        <div className={styles.filterItem}>
+          <input type="checkbox" name="archived" value="archived" />
+          <label >Archived</label>
+        </div>
       </div>
 
       <div className={styles.filterInput}>

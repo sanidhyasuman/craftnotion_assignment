@@ -17,6 +17,7 @@ const icons = {
   HiOutlineUsers,
 };
 
+
 const AllContent = () => {
   return (
     <div className={styles.container}>
@@ -48,8 +49,12 @@ const AllContent = () => {
               </div>
               <div className={styles.itemField}>{item.lastModified}</div>
               <div className={styles.itemField}>{item.views} views</div>
-              <div className={styles.itemField}>
-                <span className={styles.editorAvatar}>{item.editors}</span>
+              <div className={`${styles.itemField} ${styles.editors}`}>
+                {item.editors.map((editor, i) => (
+                  <span key={i} className={styles.editorAvatar}>
+                    {editor}
+                  </span>
+                ))}
               </div>
             </div>
           );

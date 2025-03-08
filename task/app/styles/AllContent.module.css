@@ -16,7 +16,6 @@
     align-items: center;
     margin-bottom: 15px;
     font-size: 0.7rem;
-
 }
 
 .dropdown {
@@ -61,7 +60,11 @@
     align-items: center;
     text-align: left;
 }
-
+.editors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .editorAvatar {
     background-color: rgb(160, 106, 221);
     color: white;
