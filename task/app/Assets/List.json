@@ -1,6 +1,8 @@
 [
     {
         "name": "SLMobbin Notes",
+        "icon": "IoDocumentTextOutline",
+        "color": "#6F42C1",
         "lastModified": "17 mins ago",
         "views": 5,
         "editors": "SL"
@@ -8,30 +10,80 @@
     {
         "name": "SLMobbin",
         "lastModified": "1 hour ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
         "views": 8,
         "editors": "SL"
     },
     {
         "name": "SLMobbin",
         "lastModified": "1 hour ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
         "views": 20,
         "editors": "SL"
     },
     {
         "name": "SLMobbin Notes",
         "lastModified": "17 mins ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
         "views": 5,
         "editors": "SL"
     },
     {
         "name": "SLMobbin",
         "lastModified": "1 hour ago",
+        "icon": "MdOutlineInsertChart",
+        "color": "#FF5733",
         "views": 8,
         "editors": "SL"
     },
     {
         "name": "SLMobbin",
         "lastModified": "1 hour ago",
+        "icon": "MdOutlineInsertChart",
+        "color": "#FF5733",
+        "views": 20,
+        "editors": "SL"
+    },
+    {
+        "name": "SLMobbin",
+        "lastModified": "1 hour ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
+        "views": 8,
+        "editors": "SL"
+    },
+    {
+        "name": "SLMobbin",
+        "lastModified": "1 hour ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
+        "views": 20,
+        "editors": "SL"
+    },
+    {
+        "name": "SLMobbin Notes",
+        "lastModified": "17 mins ago",
+        "icon": "MdOutlineDashboard",
+        "color": "#28A745",
+        "views": 5,
+        "editors": "SL"
+    },
+    {
+        "name": "SLMobbin",
+        "lastModified": "1 hour ago",
+        "icon": "MdOutlineInsertChart",
+        "color": "#FF5733",
+        "views": 8,
+        "editors": "SL"
+    },
+    {
+        "name": "SLMobbin",
+        "lastModified": "1 hour ago",
+        "icon": "MdOutlineInsertChart",
+        "color": "#FF5733",
         "views": 20,
         "editors": "SL"
     }

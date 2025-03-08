@@ -39,7 +39,7 @@
 
 .listHeader {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     color: rgb(53, 53, 53);
     padding: 8px;
     font-size: 0.8rem;
@@ -53,11 +53,24 @@
 .listItem {
     font-size: 0.8rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 8px;
     padding: 10px;
     border: 0.1px solid rgb(177, 177, 177);
     border-top: none;
     align-items: center;
     text-align: left;
+}
+
+.editorAvatar {
+    background-color: rgb(160, 106, 221);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
 }

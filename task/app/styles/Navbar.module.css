@@ -18,6 +18,20 @@
     font-size: 30px;
     margin-right: 20px;
 }
+
+.createBtn {
+    background-color: #0073ee;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.createBtn:hover {
+    background-color: #0357b1;
+}
+
 .dropdown {
     background: none;
     border: none;
@@ -39,6 +53,7 @@
     background: rgb(230, 230, 230);
     border-radius: 5px;
     padding: 5px 10px;
+    width: 30%;
 }
 
 .searchBar input {
@@ -54,27 +69,29 @@
     margin-right: 5px;
 }
 
+.rightItems{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.invite{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(5, 173, 173);
+    border:1px solid rgb(10, 208, 235);
+    background: rgb(181, 247, 247);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    padding: 5px;
+}
 
 .actions {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
-
-.createBtn {
-    background-color: #0073ee;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.createBtn:hover {
-    background-color: #0357b1;
-}
-
 
 .actions .icon {
     font-size: 1.2rem;
@@ -84,4 +101,12 @@
 
 .actions .icon:hover {
     color: #5e5e5d;
+}
+
+.upgrade{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #0073ee;
 }
