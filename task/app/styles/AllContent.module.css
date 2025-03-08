@@ -62,8 +62,6 @@
 }
 .editors{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .editorAvatar {
     background-color: rgb(160, 106, 221);
